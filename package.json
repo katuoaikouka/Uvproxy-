@@ -1,0 +1,13 @@
+{
+  "name": "uv-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "express": "^4.18.2",
+    "wisp-server-node": "^1.1.0"
+  }
+}
