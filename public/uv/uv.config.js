@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: window.location.origin + '/bare/', // 絶対パスにすることでパースミスを防ぐ
+    bare: '/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
